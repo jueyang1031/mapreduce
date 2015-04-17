@@ -40,5 +40,6 @@ public class Job{
 		ObjectOutputStream outObj = new ObjectOutputStream(socket.getOutputStream());
 		outObj.writeObject(this.jobContext);
 		//hahaha
+		//jue yang
 	}
 }
